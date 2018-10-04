@@ -1,4 +1,4 @@
-FROM docker.elastic.co/elasticsearch/elasticsearch-oss:6.4.0
+FROM docker.elastic.co/elasticsearch/elasticsearch-oss:6.4.2
 
 RUN bin/elasticsearch-plugin install -b repository-s3
 
